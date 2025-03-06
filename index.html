@@ -4,17 +4,22 @@
         <title>Search</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style/index.css">
     </head>
     
     <body>
         <nav>
-            <button><a>Images</a></button>
-            <button><a>Advanced Search</a></button>
+            <button><a href="pages/images.html">Images</a></button>
+            <button><a href="pages/advanced-search.html">Advanced Search</a></button>
         </nav>
-        <img src="assets/google_image.png">
-        <form action="https://google.com/search">
-            <input type="text" name="q">
-            <input type="submit" value="Google Search">
-        </form>
+
+        <div class="content">
+            <img src="assets/google_image.png">
+        
+            <form action="https://google.com/search">
+                <input type="text" name="q" required>
+                <input type="submit" value="Google Search">
+            </form>
+        </div>
     </body>
 </html>
