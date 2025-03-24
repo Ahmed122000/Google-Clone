@@ -99,4 +99,4 @@ This project is a simple clone of Google's homepage, Google Images, and Google A
 
 ## License
 
-This project is licensed under the MIT License. See the LICENSE file for details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
